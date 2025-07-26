@@ -1,7 +1,7 @@
 trigger:
 - main
 pool:
-  name: prod-pool
+  name: ADO-Agent
 stages:
 - stage: Build
   displayName: "Build Stage"
