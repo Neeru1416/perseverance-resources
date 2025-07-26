@@ -9,6 +9,7 @@ jobs:
 - job: UserDefinedVariables
   steps:
   - script: |
-  	echo "nginx version : $(nginx_version)"
-  	echo "deploying to : $(deploy)"
+      echo "nginx version : $(nginx_version)"
+      echo "deploying to : $(deploy)"
     displayName: 'utilizing variables'
+
